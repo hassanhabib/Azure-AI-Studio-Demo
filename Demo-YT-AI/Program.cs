@@ -32,7 +32,7 @@ namespace Demo_YT_AI
                     {
                         new AzureCognitiveSearchChatExtensionConfiguration
                         {
-                            SearchEndpoint = new Uri("https://yt-demo-ai-search.search.windows.net"),
+                            SearchEndpoint = new Uri("ADD_YOUR_AZURE_AI_SEARCH_URL_HERE"),
                             IndexName = "ADD_YOUR_INDEX_HERE",
                             SearchKey = new AzureKeyCredential("ADD_YOUR_SEARCH_KEY_HERE")
                         }
